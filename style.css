@@ -81,6 +81,10 @@ ul li a:hover {
 	border-color:#ccc;
 }
 
+#musique {
+	color:black
+}
+
 					/*Titre principal et photo*/
 @font-face {
 	font-family:"Perso";
@@ -177,6 +181,7 @@ footer {
     margin-top:-62px;
     text-align: center;
   }
+}
 @media (min-width:320px) and (max-width:480px) {  /*smartphone*/
   nav ul {
 /*    margin:214px 30px 30px 30px; */

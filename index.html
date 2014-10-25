@@ -14,55 +14,57 @@
 </head>
 	
 	<body>
-		<header>
+	<header>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="mainnav">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-     <!-- <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>-->
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#accueil" class="page-scoll">Accueil</a></li>
-        <li class="dropdown">
-          <a href="#autourdumonde" class="dropdown-toggle" data-toggle="dropdown">Autour du monde <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-				<li><a href="#">Asie</a></li>
-				<li class="divider"></li>
-				<li><a href="#">Bali</a></li>
-				<li><a href="#">Singapour</a></li>
-				<li><a href="#">Philippines</a></li>
-				<li><a href="#">Malaysie</a></li>
-				<li class="divider"></li>
-				<li><a href="#">Europe</a></li>
-				<li class="divider"></li>
-				<li><a href="#">Afrique</a></li>
-				<li class="divider"></li>
-				<li><a href="#">Amerique</a></li>
-
-          	</ul>
-          	<li><a href="#">Senteurs d'ailleurs</a></li>
-          	<li><a href="#">Les bon plans !</a></li>
-          	<li><a href="#">Galerie Photos</a></li>
-          	<li><a href="#">Musiques du monde</a></li>
-          	<li><a href="#">A propos de moi</a></li>
-
-        </li>
-
-      </ul>
+  		<div class="container-fluid">
+    	<!-- Brand and toggle get grouped for better mobile display -->
+    	<div class="navbar-header">
+	      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+      		</button>
+    	</div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    	
+	    <!--
+	    	<form class="well form-search">
+		  		<input type="text" class="input-medium search-query">
+		  		<button class="btn" type="submit">Recherche</button>
+			</form>
+      		<form class="navbar-form navbar-left" role="search">
+		        <div class="form-group">
+		        <input type="text" class="form-control" placeholder="Search">
+		        </div>
+		        <button type="submit" class="btn btn-default">Submit</button>
+      		</form>-->
+      	<ul class="nav navbar-nav navbar-right">
+        	<li><a href="#accueil" class="page-scoll">Accueil</a></li>
+        	<li class="dropdown">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Autour du monde <span class="caret"></span></a>
+          			<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Asie</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Bali</a></li>
+						<li><a href="#">Singapour</a></li>
+						<li><a href="#">Philippines</a></li>
+						<li><a href="#">Malaysie</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Europe</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Afrique</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Amerique</a></li>
+          			</ul>
+	          	<li><a href="#senteurs">Senteurs d'ailleurs</a></li>
+	          	<li><a href="#">Les bon plans !</a></li>
+	          	<li><a href="#">Galerie Photos</a></li>
+	          	<li><a href="#musiquedumonde">Musiques du monde</a></li>
+	          	<li><a href="#">A propos de moi</a></li>
+        	</ul>
+        	
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -70,32 +72,36 @@
 			
       
 
-		
+	<section id="accueil">
 		<div class="home">
 			<a href="http://www.escapsky.profil.com"><img id="profil"src="profil.png"class="img-responsive" alt="Responsive image"></a>
 			<h1 align="left">ESCAP'SKY</h1>
 			<p align="center">
-
-			<a href="#autourdumonde" class="btn btn-circle page-scroll">
+			<h4 align="center" style="color:white">Cliquez pour voyager !</h4>
+			<a href="#autourdumonde" class="btn btn-circle page-scroll-smooth">
               <i class="fa fa-angle-double-down animated"style="font-size:70px; color:white"id="scroll"></i>
-              
-               </a>
+            </a>
 			</p>
 		</div>
+	</section>
 		</header>
 
-		<section>
-      <div>
+	
+    <div>
       	<section id="autourdumonde">
-      	<a class:"autourdumonde" href="http://www.facebook.com"target:_blank>
-      <img src="autourdumonde.jpeg", height="500em", width="1000em" 
-      border="O"class="img-responsive" alt="Responsive image"></a>
-      </a>
-      </div>
-      </section>
-      
-		<div id="my_carousel" class="carousel slide" data-ride="carousel">
-<!-- Bulles -->
+      		<a class="autourdumonde" href="http://www.facebook.com"target="_blank">
+     		<img src="autourdumonde.jpeg", height="500em", width="1000em"border="O"class="img-responsive" alt="Responsive image"></a>
+     		<a href="#senteurs" class="btn btn-circle page-scroll">
+            <i class="fa fa-angle-double-down animated"style="font-size:70px; color:white"id="scroll"></i>
+      		</a>
+      	</section>
+    </div>
+
+
+    <!--Senteurs d'ailleurs-->
+<section id="senteurs"
+	<div id="my_carousel" class="carousel slide" data-ride="carousel">
+	<!-- Bulles -->
 	<ol class="carousel-indicators">
 		<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
 		<li data-target="#my_carousel" data-slide-to="1"></li>
@@ -106,23 +112,23 @@
 	<!-- Page 1 -->
 	<div class="item active">  
 	<div class="carousel-page">
-	<img src="balifood.jpeg" class="img-responsive" style="margin:0px auto;" />
+		<img src="balifood.jpeg" class="img-responsive" style="margin:0px auto;" />
 	</div> 
 	<div class="carousel-caption">Senteurs d'ailleurs</div>
 	</div>   
 	<!-- Page 2 -->
 	<div class="item"> 
-	<div class="carousel-page"><img src="indonesiafood.jpeg" class="img-responsive img-rounded" 
-	style="margin:0px auto;"  /></div> 
+		<div class="carousel-page"><img src="indonesiafood.jpeg" class="img-responsive img-rounded" 
+	style="margin:0px auto;"></div> 
 	<div class="carousel-caption">Senteurs d'ailleurs</div>
 	</div>  
 	<!-- Page 3 -->
 	<div class="item">  
 	<div class="carousel-page">
-	<img src="tajine.jpeg" class="img-responsive img-rounded" 
+		<img src="tajine.jpeg" class="img-responsive img-rounded" 
 	style="margin:0px auto;max-height:100%;"  />
 	</div>  
-	<div class="carousel-caption">Page 2 de présentation</div>
+	<div class="carousel-caption">Senteurs d'ailleurs</div>
 	</div>     
 	</div>
 	<!-- Contrôles -->
@@ -133,7 +139,7 @@
 	<span class="glyphicon glyphicon-chevron-right"></span>
 	</a>
 	</div>
-
+	</section>
 	
 <!-- <div>
       	<p style="text-align:center">
@@ -144,48 +150,63 @@
 	      </p>
 
       </div>-->
+
+<section id="musiquedumonde"
       <div class="musique">
-      		<h2 align="left">Musiques du monde</h2>
+      		<h3 align="left">Musiques du monde</h3>
 			<a href="http://www.escapsky.musique.com"><img id="musique"src="musique.jpeg"class="img-responsive" alt="Responsive image"></a>
 			
 			<p align="center">
 			</p>
 		</div>
-
-	</div>
 	
 	<div class="musique">
-		<h1>Musiques du monde</h1>
-		<p align="center">
+		<h3>Musiques du monde</h3>
+			<p align="center">
 			<a class="video" href="http://vimeo.com/78118074">
-			<i class="fa fa-play-circle-o"style="font-size:100px"></i></a>
+			<i class="fa fa-play-circle-o"style="font-size:100px">
+				<!-- Modal 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+</div>
+<div class="modal-body">
+Exemple de modal
+</div>
+</div><!-- /.modal-content 
+</div><!-- /.modal-dialog
+</div><!-- /.modal -->
 			
+			</i>
+			</a>
 			</p>
 	</div>
-	<iframe src="//player.vimeo.com/video/78118074?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</section>
 
 
-		<footer>
-		<div class="container-fluid">
-<div class="row"style="border:0px solid black">
-<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-1" 
-style="height:200px;font-size:20px;font-family:Perso;text-align:center;color:white">Suivez-nous !
-<ul class="list-inline">
-	<li><a href="http://www.facebook.com"><img src="facebook.jpg" class="img-responsive" alt="Responsive image" style="max-width:30px"></a></li>
-	<li><a href="http://www.twitter.com"><i class="fa fa-twitter-square" style="font-size:30px;background-color:white"></i></a>
-	<li><a href="http://www.instagram.com"><img src="instagram.jpg" class="img-responsive" alt="Responsive image" style="max-width:30px"></a></li>
-	<li><a href="http://www.pinterest.com"><i class="fa fa-pinterest-square"; style="font-size:40px; background-color:white"></i></a></li>
+<footer>
+	<div class="container-fluid">
+	<div class="row"style="border:0px solid black">
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-1" style="height:200px;font-size:20px;font-family:Perso;text-align:center;color:white">Suivez-nous !
+		<ul class="list-inline">
+			<li><a href="http://www.facebook.com"><img src="facebook.jpg" class="img-responsive" alt="Responsive image" style="max-width:30px"></a></li>
+			<li><a href="http://www.twitter.com"><img src="twitter.png" class="img-responsive" alt="Responsive image" style="max-width:30px;color:white"></a></li>
+			<li><a href="http://www.instagram.com"><img src="instagram.jpg" class="img-responsive" alt="Responsive image" style="max-width:30px"></a></li>
+			<li><a href="http://www.pinterest.com"><i class="fa fa-pinterest-square"; style="font-size:40px; background-color:white"></i></a></li>
 
-</div>
-<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-1" 
-style="height:200px;font-size:20px;font-family:Perso;text-align:center;color:white">Vous Etes curieux ? Incrivez-vous A notre newsletter !
-</div>
-<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-1" 
-style="height:200px;font-size:20px;font-family:Perso;text-align:center;color:white">A propos de moi
-</div>
-</div>
-</div>
-		</footer>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-1" style="height:200px;font-size:20px;font-family:Perso;text-align:center;color:white">Vous Etes curieux ? Incrivez-vous A notre newsletter !
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-lg-offset-1"style="height:200px;font-size:20px;font-family:Perso;text-align:center;color:white">A propos de moi
+		</div>
+	</div>
+	</div>
+</footer>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
